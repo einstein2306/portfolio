@@ -9,7 +9,6 @@
 }
 
 
-
 .duration{
     font-weight:600;
 }
@@ -130,5 +129,11 @@ img:hover{
     border-bottom: 2px solid white;
 }
 
+.skill{
+    background-color:#dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+
+}
 
 
