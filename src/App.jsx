@@ -21,7 +21,7 @@ function App() {
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon outline-none"></span>
               </button>
-              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <div className="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
                     <NavLink className={({isActive}) => isActive ? "nav-link nav-active" : "nav-link"} to='/'>Home</NavLink>
