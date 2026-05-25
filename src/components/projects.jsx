@@ -1,6 +1,6 @@
 export default function Project() {
     return (
-        <div>
+        <div className="project-main">
             <div className='container project'>
                 <h3 className="text-center">Projects</h3>
                 <section className='mt-4'>

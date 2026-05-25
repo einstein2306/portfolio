@@ -1,6 +1,6 @@
 export function About(){
     return(
-        <div>
+        <div className="about-main">
             <div className="container about">
                 <h3 className="text-center">About</h3>
                 <section id="education">
