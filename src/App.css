@@ -121,12 +121,13 @@ img:hover{
 
 .nav-link{
     font-size:16px;
+    font-weight: 600;
 }
 
 .nav-active{
-    color:black !important;
+    color:coral !important;
     display: inline-block;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid coral;
 }
 
 .skill{
