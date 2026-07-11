@@ -19,7 +19,7 @@ export default function Project() {
                         <div className="card-body ">
                             <h5 className='card-title'>Math Play</h5>
                             <p className="proj-1 card-text">This is web based demonstration of Arithmetic calculation test. This project contains three tests. <em>Addition</em>, <em>Subtraction</em> and <em>Multiplication</em> test. It has the question, so user enter it's correct value. If that answer is correct then score would be increased otherwise it woudn't and next question also won't appear until user enter the correct answer.</p>
-                            <p>Technologies: React, JavaScript, HTML, CSS</p>
+                            <p>Technologies:Vite, React, JavaScript, HTML, CSS, Bootstrap</p>
                             <a href="https://math-play-seven.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">web Link</a>
                         </div>
                     </div>
@@ -29,8 +29,18 @@ export default function Project() {
                         <div className="card-body ">
                             <h5 className='card-title'>RelativityLab</h5>
                             <p className="proj-1 card-text">This is web based demonstration of Albert Einstein's Special Theory of Relativity. This web contains two concepts <em>Time Dilation</em> and <em>Length Contraction</em>. This demonstrates the conditions at different speeds. Range bar controls the speed. </p>
-                            <p>Technologies: React, JavaScript, HTML, CSS</p>
+                            <p>Technologies:Vite, React, JavaScript, HTML, CSS, Bootstrap</p>
                             <a href="https://relativitylab.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">web Link</a>
+                        </div>
+                    </div>
+                </section>
+                <section className='mt-4 mb-2'>
+                    <div className="card det">
+                        <div className="card-body ">
+                            <h5 className='card-title'>Spam Detection</h5>
+                            <p className="proj-1 card-text">This is web based demonstration of Machine Learning Classification application which tells whether the user message is spam or not.</p>
+                            <p>Technologies: Python, Flask, Scikit-Learn, Naive-Bayes, JavaScript, HTML, CSS, Bootstrap</p>
+                            <a href="https://yaswanth24.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">web Link</a>
                         </div>
                     </div>
                 </section>
