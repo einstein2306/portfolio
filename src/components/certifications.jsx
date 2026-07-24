@@ -5,7 +5,7 @@ import DigiIndia from '../assets/img/Digital_india.jpeg'
 export function Certifications(){
     return(
         <div className="container certifications">
-            <h3 className="text-center">Certifications</h3>
+            <h3 className="text-center bg-dark text-white">Certifications</h3>
             <div className="mt-4 row p-2">
                 <div className="col">
                     <img className='img-fluid shadow shadow-sm rounded mx-auto d-block' src={unified} alt="Unified Mentor" />

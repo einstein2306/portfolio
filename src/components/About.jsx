@@ -2,7 +2,7 @@ export function About(){
     return(
         <div className="about-main">
             <div className="container about">
-                <h3 className="text-center">About</h3>
+                <h3 className="text-center bg-dark text-white">About</h3>
                 <section id="education">
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I completed my Bachelor's at Aditya Institute of Technology and Management (AITAM) in Artificial Intelligence and Machine Learning (AIML) branch. I develop web applications (Frontend and Backend) by integrating Machine Learning concepts. I develop Frontend applications using Vite plus React and Backend applications using Python with it's Frameworks (Django, Flask). Developing Machine learning applications and integrating it with web applications to create best user interactive experience.</p>
                     <hr />

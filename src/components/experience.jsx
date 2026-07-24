@@ -3,11 +3,11 @@ export function Experience(){
     return(
         <div className="container experience">
             <div>
-                <h3 className="text-center">Internships</h3>
+                <h3 className="text-center bg-dark text-white">Professional Experience</h3>
                 <section className="mt-4">
                     <div className="card" id='intern'>
                         <div className="card-body">
-                            <h5 className='card-title'>Machine Learning Intern</h5>
+                            <h5 className='card-title fw-bold'>Machine Learning Intern</h5>
                             <h6 className='card-title'>Unified Mentor Private Limited</h6>
                             <div>Duration: Oct 2025 - Jan 2026</div>
                             <div>Mode: Remote</div>
@@ -21,7 +21,7 @@ export function Experience(){
                 <section className="mt-4">
                     <div className="card" id='intern'>
                         <div className="card-body">
-                            <h5 className='card-title'>Software Trainee</h5>
+                            <h5 className='card-title fw-bold'>Software Trainee</h5>
                             <h6 className='card-title'>Cloud Technologies</h6>
                             <div>Duration: Apr 2024 - May 2024</div>
                             <div>Mode : onsite</div>
@@ -35,9 +35,9 @@ export function Experience(){
                 <section className="mt-4">
                     <div className="card" id='intern'>
                         <div className="card-body">
-                            <h5 className='card-title'>Machine Learning Applications for Embedded Systems using STMElectronics AI Ecosystem Trainee</h5>
+                            <h5 className='card-title fw-bold'>Machine Learning Applications for Embedded Systems using STMElectronics AI Ecosystem Trainee</h5>
                             <h6 className='card-title'>DigiToad Technologies</h6>
-                            <div>Duration: 27th Nov 2023 - 1st Dec 2023</div>
+                            <div>Duration:  Nov 2023 -  Dec 2023</div>
                             <div>Mode : on campus</div>
                             <p className="card-text">Training program on Designing Machine Learning Applications for Embedded Systems using STMElectronics AI Ecosystem.</p>
                             <address className=" card card-body">Address: <br />
@@ -49,7 +49,7 @@ export function Experience(){
                 <section className="mt-4 mb-2">
                     <div className="card" id='intern'>
                         <div className="card-body">
-                            <h5 className='card-title'>Intern</h5>
+                            <h5 className='card-title fw-bold'>Intern</h5>
                             <h6 className='card-title'>CCC Digital India</h6>
                             <div>Duration: 25th Oct 2023 - 30th Oct 2023</div>
                             <div>Mode : on campus</div>
