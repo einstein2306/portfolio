@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.js'
 import Project from './components/projects.jsx'
 import {Intro} from './components/Intro.jsx'
 import {About} from './components/About.jsx'
