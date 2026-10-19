@@ -1,70 +1,26 @@
 
 .experience,.about,.project, .certifications{
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:16px;
     margin-top:1%;
     padding:5px;
-    font-weight: 400;
 
 }
-
+.first1{
+    font-size:20px;
+    font-family:  monospace;
+}
+.first2, .design, .description{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .duration{
     font-weight:600;
 }
 
-#content{
-    margin-left:20%;
-    font-size: 17px;
-    font-weight: 500;
-}
-
-
-.design{
-   color:darkblue;
-   font-weight:900;
-   font-size:50px;
-   margin-left:20%;
-}
-
-@keyframes slideup{
-    0%{
-        margin-top:19%;
-        opacity: 0;
-
-    }
-    100%{
-        margin-top:10%;
-        opacity: 1;
-    }
-}
-
-.anime{
-    animation-name: slideup;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-
-
-
-#name{
-    font-weight: 900;
-    font-size:32px;
-    margin-left:20%;
-}
 
 h3{
     font-size:27px;  
-}
-
-.name{
-    color:brown;
-    line-height: 2rem;
-    display: block;
-    font-size:50px;
-    margin-left:20%;
-    font-weight: 900;
 }
 
 .proj-1{
@@ -80,10 +36,13 @@ h3{
     border-radius:6px;
     font-size:15px;
 }
-
 #courses:hover{
     background-color:black;
     color:white;
+}
+#courses{
+    font-size: small;
+    font-family: monospace;
 
 }
 
