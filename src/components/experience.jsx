@@ -13,7 +13,7 @@ export function Experience() {
                                 <div className="mt-1">Duration: Oct 2025 - Jan 2026</div>
                                 <div>Mode: Remote</div>
                                 <p className="card-text">Developed machine learning projects. I worked on four projects. Animal Classification, Thyroid Cancer Reoccurence, Mobile Phone Price Prediction and Heart Disease Prediction.</p>
-                                <address className="card card-body">Address: <br />
+                                <address  className="card card-body addr">Address: <br />
                                     Haryana, India
                                 </address>
                             </div>
@@ -27,7 +27,7 @@ export function Experience() {
                                 <div className="mt-1">Duration: Apr 2024 - May 2024</div>
                                 <div>Mode: onsite</div>
                                 <p className="card-text">Developed web applications using python framework called Flask. By integrating Machine learning applications to Flask framework to create user interface. I worked on Spam Detection algorithm by integrating flask framework.</p>
-                                <address className=" card card-body">Address: <br />
+                                <address className=" card card-body addr">Address: <br />
                                     Ameerpet, Hyderabad, India
                                 </address>
                             </div>
@@ -41,7 +41,7 @@ export function Experience() {
                                 <div className="mt-1">Duration:  Nov 2023 -  Dec 2023</div>
                                 <div>Mode: on campus</div>
                                 <p className="card-text">Training program on Designing Machine Learning Applications for Embedded Systems using STMElectronics AI Ecosystem.</p>
-                                <address className=" card card-body">Address: <br />
+                                <address className=" card card-body addr">Address: <br />
                                     Karnataka, Bengaluru, India
                                 </address>
                             </div>
@@ -55,7 +55,7 @@ export function Experience() {
                                 <div className="mt-1">Duration: Oct 2023 - Oct 2023</div>
                                 <div>Mode: on campus</div>
                                 <p className="card-text">Developed the Machine Learning algorithms using Scikit-learn library. It is the python library which is widely used for machine learning tasks.</p>
-                                <address className=" card card-body">Address: <br />
+                                <address className=" card card-body addr">Address: <br />
                                     Srisai Gayatri Towers, Financial district, Hyderabad, India
                                 </address>
                             </div>

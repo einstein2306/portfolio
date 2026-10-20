@@ -10,9 +10,7 @@
     font-size:20px;
     font-family:  monospace;
 }
-.first2, .design, .description{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .duration{
     font-weight:600;
@@ -46,6 +44,11 @@ h3{
 
 }
 
+.addr{
+    background-color: lightgray;
+    font-weight: 600;
+}
+
 a{
     text-decoration:none
 }
@@ -60,7 +63,7 @@ img:hover{
 }
 
 #intern, .det{
-    background-color: rgb(240, 246, 251) ;
+    background-color:antiquewhite ;
 }
 
 .nav-link{
