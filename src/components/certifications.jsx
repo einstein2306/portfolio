@@ -6,7 +6,7 @@ export function Certifications() {
     return (
         <div className="container">
             <div className="certifications">
-                <h3 className="text-center bg-dark text-white rounded">Certifications</h3>
+                <h3 className="text-center fw-bolder">Certifications</h3>
                 <div className="mt-4 row p-2">
                     <div className="col">
                         <img className='img-fluid shadow shadow-sm rounded mx-auto d-block' src={unified} alt="Unified Mentor" />
@@ -25,13 +25,12 @@ export function Certifications() {
                     </div>
                 </div>
                 <div className="mb-3">
-                    <h3 className='text-center mt-2'>Credentials</h3>
+                    <h3 className='fw-semibold mt-2'>Credentials</h3>
                     <ul className="list-group">
-                        <li className="list-group-item mt-2 border"><a href="https://media.geeksforgeeks.org/certificates/1752920854/5eaf35b52a35c242961c14e13594cd54.pdf" target="_blank" rel="noopener noreferrer">Data Structures and Algorithms issued by (GeekForGeeks)</a></li>
-                        <li className="list-group-item mt-2 border"><a href="https://www.credly.com/badges/f208c915-042a-45da-9ace-ac9450f2dd3f" target="_blank" rel="noopener noreferrer">AWS Academy Graduate - Cloud Foundations issued by (Amazon Web Services Training and Certification)</a></li>
-                        <li className="list-group-item mt-2 border"><a href="https://www.credly.com/badges/2137cb71-5d9c-4034-99d8-b2c2524ff0f3" target="_blank" rel="noopener noreferrer">AWS Academy Graduate - Machine Learning Foundations issued by (Amazon Web Services Training and Certification)</a></li>
+                        <li style={{backgroundColor:"#fffcf7"}} className="list-group-item mt-2 border"><a href="https://media.geeksforgeeks.org/certificates/1752920854/5eaf35b52a35c242961c14e13594cd54.pdf" target="_blank" rel="noopener noreferrer">Data Structures and Algorithms issued by (GeekForGeeks)</a></li>
+                        <li style={{backgroundColor:"#fffcf7"}} className="list-group-item mt-2 border"><a href="https://www.credly.com/badges/f208c915-042a-45da-9ace-ac9450f2dd3f" target="_blank" rel="noopener noreferrer">AWS Academy Graduate - Cloud Foundations issued by (Amazon Web Services Training and Certification)</a></li>
+                        <li style={{backgroundColor:"#fffcf7"}} className="list-group-item mt-2 border"><a href="https://www.credly.com/badges/2137cb71-5d9c-4034-99d8-b2c2524ff0f3" target="_blank" rel="noopener noreferrer">AWS Academy Graduate - Machine Learning Foundations issued by (Amazon Web Services Training and Certification)</a></li>
                     </ul>
-
                 </div>
             </div>
         </div>

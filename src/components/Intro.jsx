@@ -9,7 +9,7 @@ export function Intro() {
                             <div className="py-5">
                                 <div className="namespace">
                                     <p className="fw-bold text-primary tracking-wide mb-0 first1">Hi, my name is</p>
-                                    <h1 className="display-4 fw-bold text-dark first2">Yaswanth</h1>
+                                    <h1 style={{color:"#352b25"}} className="display-4 fw-bold first2">Yaswanth</h1>
                                 </div>
                                 <div className="design">
                                     <h2 className="h4 text-secondary fw-bold ">Web Developer <span className='text-dark fw-bold'>|</span>  AI/ML Developer</h2>

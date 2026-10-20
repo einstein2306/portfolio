@@ -45,7 +45,7 @@ h3{
 }
 
 .addr{
-    background-color: lightgray;
+    background-color:#fffcf7;
     font-weight: 600;
 }
 
@@ -63,7 +63,7 @@ img:hover{
 }
 
 #intern, .det{
-    background-color:antiquewhite ;
+    background-color:  #fffcf7;
 }
 
 .nav-link{
@@ -77,11 +77,5 @@ img:hover{
     border-bottom: 2px solid coral;
 }
 
-.skill{
-    background-color:#dcdcdc;
-    padding: 20px;
-    border-radius: 10px;
-
-}
 
 

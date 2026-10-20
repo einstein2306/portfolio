@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light shadow shadow-sm">
+        <nav className="navbar navbar-expand-lg">
           <div className='container-fluid'>
               <NavLink className="navbar-brand" to="#">Yaswanth</NavLink>
               <button className="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" 
