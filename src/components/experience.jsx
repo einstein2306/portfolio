@@ -3,65 +3,72 @@ export function Experience() {
     return (
         <div className="container">
             <div className="experience">
-                <div>
-                    <h3 className="text-center fw-bolder">Experience</h3>
-                    <section className="mt-4">
-                        <div className="card" id='intern'>
-                            <div className="card-body">
-                                <h5 className='card-title fw-bold'>Machine Learning Intern</h5>
-                                <p style={{fontSize:"14px"}} className='card-title bg-success text-white p-1 rounded d-inline'>Unified Mentor Private Limited</p>
-                                <div className="mt-1">Duration: Oct 2025 - Jan 2026</div>
-                                <div>Mode: Remote</div>
-                                <p style={{color:"#6B625A"}} className="card-text">Developed machine learning projects. I worked on four projects. Animal Classification, Thyroid Cancer Reoccurence, Mobile Phone Price Prediction and Heart Disease Prediction.</p>
-                                <address  className="card card-body text-muted addr">Address: <br />
-                                    Haryana, India
-                                </address>
-                            </div>
+                    <h3 className="text-center fw-bolder">My Experience</h3>
+                    <div className="row mt-2 mb-2 g-2">
+                        <div className="col col-md-6 col-12">
+                            <section className="h-100 card shadow shadow-sm" id='intern'>
+                                    <div className="card-body">
+                                        <p className='card-title fw-bold'>Machine Learning Intern   <span style={{fontSize:"10px"}} className="ms-1 text-muted">remote</span></p>
+                                        <div className="text-muted" style={{ fontSize: "12px" }}>Unified Mentor Private Limited</div>
+                                        <p className="text-muted" style={{ fontSize: "12px" }}> Oct 2025 - Jan 2026</p>
+                                        <p style={{ color: "#6B625A" }} className="card-text">Developed machine learning projects. I worked on four projects. Animal Classification, Thyroid Cancer Reoccurence, Mobile Phone Price Prediction and Heart Disease Prediction.</p>
+                                        <ul className="list-group list-group-horizontal">
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Python</li>
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Machine Learning</li>
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Deep Learning</li>
+                                        </ul>
+                                    </div>                  
+                            </section>
+
                         </div>
-                    </section>
-                    <section className="mt-4">
-                        <div className="card" id='intern'>
-                            <div className="card-body">
-                                <h5 className='card-title fw-bold'>Software Trainee</h5>
-                                <p style={{fontSize:"14px"}} className='card-title bg-success text-white p-1 rounded d-inline'>Cloud Technologies</p>
-                                <div className="mt-1">Duration: Apr 2024 - May 2024</div>
-                                <div>Mode: onsite</div>
-                                <p style={{color:"#6B625A"}} className="card-text">Developed web applications using python framework called Flask. By integrating Machine learning applications to Flask framework to create user interface. I worked on Spam Detection algorithm by integrating flask framework.</p>
-                                <address className=" card card-body text-muted addr">Address: <br />
-                                    Ameerpet, Hyderabad, India
-                                </address>
-                            </div>
+                        <div className="col col-md-6 col-12">
+                            <section className="card h-100 shadow shadow-sm" id='intern'>
+                                    <div className="card-body">
+                                        <p className='card-title fw-bold'>Software Trainee <span style={{fontSize:"10px"}} className="ms-1 text-muted">onsite</span></p>
+                                        <div className="text-muted" style={{ fontSize: "12px" }}>Cloud Technologies</div>
+                                        <p className="text-muted" style={{ fontSize: "12px" }}> Apr 2024 - May 2024</p>
+                                        <p style={{ color: "#6B625A" }} className="card-text">Developed web applications using python framework called Flask. By integrating Machine learning applications to Flask framework to create user interface. I worked on Spam Detection algorithm by integrating flask framework.</p>
+                                        <ul className="list-group list-group-horizontal">
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Python</li>
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Flask</li>
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">web development</li>
+                                        </ul>
+                                    </div>
+                            </section>
+
                         </div>
-                    </section>
-                    <section className="mt-4">
-                        <div className="card" id='intern'>
-                            <div className="card-body">
-                                <h5 className='card-title fw-bold'>Machine Learning Applications for Embedded Systems using STMElectronics AI Ecosystem Trainee</h5>
-                                <p style={{fontSize:"14px"}} className='card-title bg-success text-white p-1 rounded d-inline'>DigiToad Technologies</p>
-                                <div className="mt-1">Duration:  Nov 2023 -  Dec 2023</div>
-                                <div>Mode: on campus</div>
-                                <p style={{color:"#6B625A"}} className="card-text">Training program on Designing Machine Learning Applications for Embedded Systems using STMElectronics AI Ecosystem.</p>
-                                <address className="card card-body text-muted addr">Address: <br />
-                                    Karnataka, Bengaluru, India
-                                </address>
-                            </div>
+                    </div>
+                    <div className="row g-2 mb-2">
+                        <div className="col col-md-6 col-12">
+                            <section className="card h-100 shadow shadow-sm" id='intern'>
+                                    <div className="card-body">
+                                        <p className='card-title fw-bold'>Trainee <span style={{fontSize:"10px"}} className="ms-1 text-muted">onsite</span></p>
+                                        <div className="text-muted" style={{ fontSize: "12px" }}>DigiToad Technologies</div>
+                                        <p className="text-muted" style={{ fontSize: "12px" }}>  Nov 2023 -  Dec 2023</p>
+                                        <p style={{ color: "#6B625A" }} className="card-text">Training program on Designing Machine Learning Applications for Embedded Systems using STMElectronics AI Ecosystem.</p>
+                                       <ul className="list-group list-group-horizontal">
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Machine Learning</li>
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Embedded Systems</li>
+                                        </ul>
+                                    </div>
+                            </section>
                         </div>
-                    </section>
-                    <section className="mt-4 mb-2">
-                        <div className="card" id='intern'>
-                            <div className="card-body">
-                                <h5 className='card-title fw-bold'>Intern</h5>
-                                <p style={{fontSize:"14px"}} className='card-title bg-success text-white p-1 rounded d-inline'>CCC Digital India</p>
-                                <div className="mt-1">Duration: Oct 2023 - Oct 2023</div>
-                                <div>Mode: on campus</div>
-                                <p style={{color:"#6B625A"}} className="card-text">Developed the Machine Learning algorithms using Scikit-learn library. It is the python library which is widely used for machine learning tasks.</p>
-                                <address className="card card-body text-muted addr">Address: <br />
-                                    Srisai Gayatri Towers, Financial district, Hyderabad, India
-                                </address>
-                            </div>
+                        <div className="col col-md-6 col-12">
+                            <section className="h-100 card shadow shadow-sm" id='intern'>
+                                    <div className="card-body">
+                                        <p className='card-title fw-bold'>Intern <span style={{fontSize:"10px"}} className="ms-1 text-muted">onsite</span></p>
+                                        <div className="text-muted" style={{ fontSize: "12px" }}>CCC Digital India</div>
+                                        <p className="text-muted" style={{ fontSize: "12px" }}> Oct 2023 - Oct 2023</p>
+                                        <p style={{ color: "#6B625A" }} className="card-text">Developed the Machine Learning algorithms using Scikit-learn library. It is the python library which is widely used for machine learning tasks.</p>
+                                        <ul className="list-group list-group-horizontal">
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Machine Learning</li>
+                                            <li style={{fontSize:"10px"}} className="list-group-item me-1 bg-light text-primary fw-semibold rounded">Scikit-Learn</li>
+                                        </ul>
+                                    </div>
+                            </section>
                         </div>
-                    </section>
-                </div>
+                    </div>
+
             </div>
 
         </div>

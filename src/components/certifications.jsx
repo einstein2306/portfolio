@@ -7,29 +7,29 @@ export function Certifications() {
         <div className="container">
             <div className="certifications">
                 <h3 className="text-center fw-bolder">Certifications</h3>
-                <div className="mt-4 row p-2">
-                    <div className="col">
-                        <img className='img-fluid shadow shadow-sm rounded mx-auto d-block' src={unified} alt="Unified Mentor" />
+                <div className="mt-4 row g-2 mb-3">
+                    <div className="col col-md-6 col-12">
+                        <img className='img-fluid rounded mx-auto d-block' src={unified} alt="Unified Mentor" />
                     </div>
-                    <div className="col">
-                        <img className='img-fluid shadow shadow-sm rounded mx-auto d-block' src={DigiToad} alt="DigiToad" />
+                    <div className="col col-md-6 col-12">
+                        <img className='img-fluid rounded mx-auto d-block' src={DigiToad} alt="DigiToad" />
 
                     </div>
                 </div>
-                <div className="mt-4 row p-2">
-                    <div className="col">
-                        <img className='img-fluid shadow shadow-sm rounded mx-auto d-block' src={DigiIndia} alt="Digital India" />
+                <div className="row g-2 mb-5">
+                    <div className="col col-md-6 col-12">
+                        <img className='img-fluid rounded mx-auto d-block' src={DigiIndia} alt="Digital India" />
                     </div>
-                    <div className="col">
-                        <img className='img-fluid shadow shadow-sm rounded mx-auto d-block' src={cloudTech} alt="Cloud Tech" />
+                    <div className="col col-md-6 col-12">
+                        <img className='img-fluid rounded mx-auto d-block' src={cloudTech} alt="Cloud Tech" />
                     </div>
                 </div>
                 <div className="mb-3">
-                    <h3 className='fw-semibold mt-2'>Credentials</h3>
+                    <p className='fw-semibold h6'>Credentials</p>
                     <ul className="list-group">
-                        <li style={{backgroundColor:"#fffcf7"}} className="list-group-item mt-2 border"><a href="https://media.geeksforgeeks.org/certificates/1752920854/5eaf35b52a35c242961c14e13594cd54.pdf" target="_blank" rel="noopener noreferrer">Data Structures and Algorithms issued by (GeekForGeeks)</a></li>
-                        <li style={{backgroundColor:"#fffcf7"}} className="list-group-item mt-2 border"><a href="https://www.credly.com/badges/f208c915-042a-45da-9ace-ac9450f2dd3f" target="_blank" rel="noopener noreferrer">AWS Academy Graduate - Cloud Foundations issued by (Amazon Web Services Training and Certification)</a></li>
-                        <li style={{backgroundColor:"#fffcf7"}} className="list-group-item mt-2 border"><a href="https://www.credly.com/badges/2137cb71-5d9c-4034-99d8-b2c2524ff0f3" target="_blank" rel="noopener noreferrer">AWS Academy Graduate - Machine Learning Foundations issued by (Amazon Web Services Training and Certification)</a></li>
+                        <li style={{backgroundColor:"#fffcf7",fontSize:"12px"}} className="text-muted list-group-item mt-2 border"><a className='btn btn-sm btn-dark float-end py-0' href="https://media.geeksforgeeks.org/certificates/1752920854/5eaf35b52a35c242961c14e13594cd54.pdf" target="_blank" rel="noopener noreferrer"><i style={{fontSize:"9px"}} className='bi bi-arrow-up-right'></i></a>Data Structures and Algorithms issued by (GeekForGeeks)</li>
+                        <li style={{backgroundColor:"#fffcf7",fontSize:"12px"}} className="text-muted list-group-item mt-2 border"><a className='btn btn-sm btn-dark float-end py-0' href="https://www.credly.com/badges/f208c915-042a-45da-9ace-ac9450f2dd3f" target="_blank" rel="noopener noreferrer"><i style={{fontSize:"9px"}} className='bi bi-arrow-up-right'></i></a>AWS Academy Graduate - Cloud Foundations issued by (Amazon Web Services Training and Certification)</li>
+                        <li style={{backgroundColor:"#fffcf7",fontSize:"12px"}} className="text-muted list-group-item mt-2 border"><a className='btn btn-sm btn-dark float-end py-0' href="https://www.credly.com/badges/2137cb71-5d9c-4034-99d8-b2c2524ff0f3" target="_blank" rel="noopener noreferrer"><i style={{fontSize:"9px"}} className='bi bi-arrow-up-right'></i></a>AWS Academy Graduate - Machine Learning Foundations issued by (Amazon Web Services Training and Certification)</li>
                     </ul>
                 </div>
             </div>
